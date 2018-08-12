@@ -11,7 +11,7 @@ public final class Main {
         final Scanner consoleScanner = new Scanner(System.in);
         final int firstNumber = consoleScanner.nextInt();
         final int secondNumber = consoleScanner.nextInt();
-        final int result = Add.add(firstNumber, secondNumber);
+        final int result = new Add().add(firstNumber, secondNumber);
         System.out.println("Result is " + result);
     }
 }

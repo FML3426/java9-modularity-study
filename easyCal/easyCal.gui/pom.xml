@@ -9,7 +9,20 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>easyCal.analysis</artifactId>
+    <artifactId>easyCal.gui</artifactId>
+
+    <dependencies>
+        <dependency>
+            <groupId>blog.ml3426</groupId>
+            <artifactId>easyCal.analysis</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+        </dependency>
+    </dependencies>
+    
     <build>
         <plugins>
             <plugin>
@@ -22,6 +35,4 @@
             </plugin>
         </plugins>
     </build>
-
-
 </project>
